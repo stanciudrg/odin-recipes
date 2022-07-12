@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.7);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+    .container {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        transform: none;
+    }
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.spaghetti-link {
+    text-align: center;
+    width: 100%;
+    padding: 4rem 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F11973-spaghetti-carbonara-mfs-043.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 700px) {
+    .spaghetti-link {
+        font-size: 1.5rem;
+    }
+}
+
+
+.toast-link {
+    text-align: center;
+    width: 100%;
+    padding: 4rem 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://assets.epicurious.com/photos/58b488ed17079a08dbf43e81/master/pass/BANANA-STUFFED-FRENCH-TOAST-16022017.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 700px) {
+    .toast-link {
+        font-size: 1.5rem;
+    }
+}
+
+.tacos-link {
+    text-align: center;
+    width: 100%;
+    padding: 4rem 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://media.self.com/photos/5f1eef2914b005b8d8eba4d0/4:3/w_1707,h_1280,c_limit/30-Minute-Roasted-Vegetable-Tacos-with-Chimichurri-BIG-flavor-satisfying-HEALTHY-vegan-glutenfree-plantbased-tacos-chimichurri-cauliflower-minimalistbaker-recipe-6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 700px) {
+    .tacos-link {
+        font-size: 1.5rem;
+    }
+}
